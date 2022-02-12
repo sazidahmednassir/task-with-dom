@@ -35,3 +35,10 @@ document.getElementById("add-btn").addEventListener("click", function () {
     }
   }
 });
+
+
+let clear=document.getElementById('clear');
+clear.addEventListener("click", function(){
+    let mainCon=document.getElementById("content-container");
+    mainCon.style.display="none";
+})
